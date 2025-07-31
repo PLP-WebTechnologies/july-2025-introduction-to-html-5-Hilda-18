@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0c0c0c13;
+    color: #0a0000ea;
+    margin: 0;
+    padding: 20px;
+}
+header {
+    background-color: #02011109;
+    color: #0b0b0cb6;
+    padding: 20px 0;
+    text-align: center;
+}
+nav {
+    margin: 20px 0;
+    color: ;#333;
+    text-align: left;
+    font-size: medium;
+    text-decoration: none;
+    text-indent: 0cqmin;
+}
+section {
+    background-color: #03021871;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(177, 12, 122, 0);
+}
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #3f1b68;
+    border-radius: 5px;
+
+}
+form button {
+    background-color: #110101dc;
+    color: #df5f0a;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+form button:hover {
+    background-color: #420adf;
+    color: #6e3636;
+}
+image {
+    max-width: 100%;
+    height: 150px;
+    border-radius: 50px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card {
+    background-color: #0f040409;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(155, 8, 8, 0.1);
+    margin-bottom: 20px;
+    flex: 1;
+    min-width: 250px;
+    box-shadow: #020211 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+:horizontal-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: nowrap;/* forces side by side layout */
+    overflow-x: auto; /* allows horizontal scrolling if needed */
+
+}
